@@ -1,6 +1,17 @@
 .mainheading{
     text-align: center;
-    background-color: rgb(51, 153, 204);
+    background-color: #ffffff;
+    border-style: solid;
+ }
+ 
+ .nav{
+    text-align: center;
+    background-color: #325287;
+    color:#ffffff;
+    border-style: solid;
+ }
+
+.header{
+    text-indent: 75px;
+     padding-top: 10px;
 }
-
-
