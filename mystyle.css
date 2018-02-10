@@ -4,6 +4,7 @@
     color:#212121;
     width:50%;
     margin:auto;
+    
   
  }
  
@@ -19,17 +20,21 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1500%;
+    color:#212121;
+    font-family: Arial, Helvetica, sans-serif;
 } 
      
  
  nav {
      float:right;
+  
      
  }
  
  
 header {
    background: #2196F3;
+   border-bottom: 2px solid #BDBDBD;
 }
 
 header::after {
@@ -41,14 +46,12 @@ header::after {
 .logo {
     float: left;
     padding-left:10px;
-   
 }
 
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    text-align: center;
 }
 
 
@@ -56,17 +59,18 @@ nav li {
     display: inline-block;
     margin-left: 100px;
     padding-top: 15px;
-    padding-right: 50px;
-   
-    border-right: 1px solid #BDBDBD;
-    padding-bottom: 15px
+    padding-right: 5px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
+
 
 nav a {
     color: #FFFFFF;
     text-decoration: none;
     text-align: center
+    
 }
 
 nav a:hover { 
