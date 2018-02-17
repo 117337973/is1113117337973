@@ -42,7 +42,7 @@
             
             <label for="total">
                 Total
-                <input type="text" id="total" value="0.00" readonly/>
+                <input type="text" id="total" name="total" value="0.00" readonly/>
             </label>
             
             <button type="submit" id="btnProceed" disabled>Add to shopping cart</button> 
