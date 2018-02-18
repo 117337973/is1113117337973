@@ -3,6 +3,7 @@
     background-size:     cover;                      
     background-repeat:   no-repeat;
     background-position: center center; 
+    text-align: center;
 }
 
 #section2{
@@ -10,21 +11,47 @@
     background-size:     cover;                      
     background-repeat:   no-repeat;
     background-position: center center; 
-    
+    text-align: center;
 }
 
 #section3{
     background-image: url("https://www.agileit.com/wp-content/uploads/2017/03/cloud-computing-challenges.jpg");
-     background-size:     cover;                      
+    background-size:     cover;                      
     background-repeat:   no-repeat;
     background-position: center center; 
+    text-align: center;
 }
+
+#section4 {
+  background-color:#ffffff;
+  color:#212121;
+
+  font-size: 175%;
+}
+
+.RightPicture{
+  position: absolute;
+  right: 4.5%;
+  width: 27%;
+  height: 30%;
+  
+}
+
+
+
+.Question{
+   border-bottom: 1px solid #BDBDBD;
+  
+}
+
 
 .section{
-    text-align:  center;
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212121;
 }
 
+
+/* style for interest homepage links   */
 .button {
   
   border: none;
@@ -34,6 +61,7 @@
   width: 300px;
   transition: all 0.5s;
   cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
   
 }
 
@@ -53,13 +81,9 @@
   transition: 0.5s;
 }
 
-.button:hover span {
-  padding-right: 25px;
-}
 
 .button:hover span:after {
   opacity: 1;
   right: -100;
 }
-
-
+/* end of style */
