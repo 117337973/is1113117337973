@@ -70,7 +70,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 75px;
     padding-top: 15px;
     padding-right: 5px;
     padding-bottom: 15px;
@@ -88,3 +88,17 @@ nav a:hover {
     color: black;
 }
 /* end of nav bar style */ 
+
+
+/* style for cloud services vendor */
+ .SubHeading{
+     border-bottom: 1px solid #BDBDBD;
+     color:#212121;
+     font-size: 150%;
+ }
+
+.Info{
+    max-width:50%; 
+    padding-left:5%;
+    font-size: 120%;
+}
