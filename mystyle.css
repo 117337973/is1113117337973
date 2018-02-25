@@ -102,3 +102,59 @@ nav a:hover {
     padding-left:5%;
     font-size: 120%;
 }
+
+
+.shop{
+    color:#212121;
+    width:35%;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+}
+
+.cart {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    padding: 16px 16px;
+    font-size: 105%;
+    transition-duration: 0.3s;
+}
+
+.cart:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.cost{
+    display: inline-block;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #FFA000;
+    border-radius: 4px;
+    padding: 16px 16px;
+    font-size: 105%;
+    transition-duration: 0.3s;
+}
+
+.cost:hover {
+    background-color:#FFA000;
+    color: white;
+}
+
+.clear{
+    display: inline-block;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #FF5252;
+    border-radius: 4px;
+    padding: 16px 16px;
+    font-size: 105%;
+    transition-duration: 0.3s;
+}
+
+.clear:hover {
+    background-color:#FF5252;
+    color: white;
+}
