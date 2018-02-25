@@ -2,11 +2,11 @@
 <html>
     <head>
         <title>Select Product</title>
-        
+        <link rel="stylesheet" href="../mystyle.css" type="text/css" />
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-        <link rel="stylesheet" href="../mystyle.css" type="text/css" />
+        
         
     </head>
     
