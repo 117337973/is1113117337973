@@ -35,8 +35,8 @@
     
         </header>
          
-         <br/>
-         <br/>
+        <br/>
+        <br/>
          
          <div class="container">
             
@@ -44,13 +44,13 @@
             
         </div>
         
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
         <div class="Info">
             <p>
                 <strong class="SubHeading">Company F - A Short Welcome...</strong>
@@ -58,19 +58,8 @@
                 <br/>
                 We are Company F and welcome to our shop. We are a cloud services vendor, who supply the latest of cloud computing offerings to our customers. If you wish to learn more information about the different types of products we offer please don't hesitate to visit our <a href="../CloudServicesVendor.html">information page.</a>
             </p>
-            
-            
-            
-            
-            
+          
         </div>
-        
-        
-        
-        
-        
-        
-        
         
         <br/>
         <br/>
@@ -123,12 +112,6 @@
             
                 <br/>
                 <br/>
-                
-                
-                
-                
-                
-                
                 <br/>
             
                 <label style="float:left;padding-left:25%" for="subtotal">
@@ -160,47 +143,45 @@
                 </label>
                 <input style="float:right; margin-right:35%;width:6%" type="text" id="total" name="total" value="0.00" readonly/>
                 
-                
                 <br/>
                 <br/>
                 <button style="float:left;margin-left:25%" class="cart" type="submit" id="btnProceed" disabled>Add to shopping cart</button> 
                 
                 <br/>
                 <br/>
-                
-                
-               
+        
             </form>
+            
             <br/>
             <br/>
+            
             <div style="margin-right:7.5%">
+                
                 <button class="cost" onClick="calcSub()">Calculate Cost</button>
                 <a style="padding-left:2%" class="clear" role="button" href="Ebus1.php">Clear Choice</a>  
+                
             </div>
                 
-               
-            
-   
         </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-     
         
-        
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    
     </body>
+    
 </html>
