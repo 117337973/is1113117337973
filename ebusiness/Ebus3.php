@@ -67,7 +67,7 @@ session_start();
                     
                      <?php
                      //echo session variables that were set on previous page
-                      echo "Total Price: €" . $_SESSION["total"];
+                      echo "Total Price: $" . $_SESSION["total"];
                      ?>
                 
                 
