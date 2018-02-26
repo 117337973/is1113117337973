@@ -125,7 +125,7 @@
                 <label style="float:left;padding-left:25%" for="discount">
                     Discount @ 5%
                 </label>
-                <input style="float:right; margin-right:35%; width:6%" type="text" id="discount"  value="0.00" readonly/>
+                <input style="float:right; margin-right:35%; width:7%" type="text" id="discount"  value="0.00" readonly/>
                 
                 <br/>
                 <br/>
@@ -133,7 +133,7 @@
                  <label style="float:left;padding-left:25%" for="vat">
                     VAT @ 10%
                 </label>
-                <input style="float:right; margin-right:35%;width:6%" type="text" id="vat" value="0.00" readonly/>
+                <input style="float:right; margin-right:35%;width:7%" type="text" id="vat" value="0.00" readonly/>
                 
                  <br/>
                  <br/>
@@ -141,7 +141,7 @@
                  <label style="float:left;padding-left:25%" for="total">
                     Total
                 </label>
-                <input style="float:right; margin-right:35%;width:6%" type="text" id="total" name="total" value="0.00" readonly/>
+                <input style="float:right; margin-right:35%;width:7%" type="text" id="total" name="total" value="0.00" readonly/>
                 
                 <br/>
                 <br/>
