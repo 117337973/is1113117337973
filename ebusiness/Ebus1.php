@@ -117,7 +117,7 @@
                 <label style="float:left;padding-left:25%" for="subtotal">
                     Sub Total
                 </label>
-                <input style="float:right; margin-right:35%; width:6%" type="text" id="subtotal" value="0.00" readonly/>
+                <input style="float:right; margin-right:35%; width:7%" type="text" id="subtotal" value="0.00" readonly/>
             
                 <br/>
                 <br/>
