@@ -30,9 +30,9 @@ function calcDisVatTotal(parmSubTotal){
     var totalPrice;
     
     
-    discountAmt = parmSubTotal * 0.05
-    vatAmt = (parmSubTotal - discountAmt )* 0.1
-    totalPrice = parmSubTotal - discountAmt + vatAmt
+    discountAmt = parmSubTotal * 0.05;
+    vatAmt = (parmSubTotal - discountAmt )* 0.1;
+    totalPrice = parmSubTotal - discountAmt + vatAmt;
     
     display(parmSubTotal,discountAmt.vatAmt,totalPrice)
     
@@ -42,10 +42,10 @@ function calcDisVatTotal(parmSubTotal){
 
 function display(parm1, parm2, parm3, parm4){
     
-    document.getElementById("subtotal").value = "$" + parm1
-    document.getElementById("discount").value = "$" + parm2
-    document.getElementById("vat").value = "$" + parm3
-    document.getElementById("total").value = "$" + parm4
+    document.getElementById("subtotal").value = "$" + parm1;
+    document.getElementById("discount").value = "$" + parm2;
+    document.getElementById("vat").value = "$" + parm3;
+    document.getElementById("total").value = "$" + parm4;
     
     enablebtnProceed();
 }
