@@ -47,7 +47,7 @@ session_start();
                 <form action="Ebus3.php" method="POST">
 
                     <label style="float:left" for="name">Name</label>
-                    <input style="float:right;margin-right:55%" type="name" id="name" placeholder="Enter Your Full Name Here">
+                    <input style="float:right;margin-right:55%" type="name" name="name" placeholder="Enter Your Full Name Here">
                     
                     <br/>
                     <br/>
@@ -59,7 +59,7 @@ session_start();
                     <br/>
                     
                     <label style="float:left" for="email">E-mail</label>
-                    <input style="float:right;margin-right:55%" type="email" id="email" placeholder="example@email.com">
+                    <input style="float:right;margin-right:55%" type="email" name="email" placeholder="example@email.com">
                 
                     <br/>
                     <br/>

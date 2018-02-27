@@ -7,10 +7,10 @@ function validateDetails() {
     pin = document.getElementById("user_pin").value;
     
     var email;
-    email= document.getElementById("email").value;
+    email= document.getElementsByName("email").value;
     
     var name;
-    name=document.getElementById("name").value;
+    name=document.getElementsByName("name").value;
     
     
     // if statement to validate details

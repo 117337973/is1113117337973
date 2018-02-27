@@ -43,6 +43,13 @@ session_start();
             
             <br/>
             <br/>
+            
+            <?php
+            //echo session variables
+            $_SESSION["name"] = $_POST["name"];
+            $_SESSION["email"] = $_POST["email"];
+            ?>
+            
                 
                     <?php
                      //echo session variables that were set on previous page
