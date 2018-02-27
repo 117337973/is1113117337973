@@ -24,9 +24,10 @@ function calcSub(){
 }
 
 function calcDisVatTotal(parmSubTotal){
+    
     var discountAmt;
-    var vatAmt
-    var totalPrice
+    var vatAmt;
+    var totalPrice;
     
     
     discountAmt = parmSubTotal * 0.05
