@@ -20,16 +20,31 @@ function calcSub(){
         argSubTotal = 400;
     }
     
-    display(argSubTotal);
+    calcDisVatTotal(argSubTotal);
 }
+
+function calcDisVatTotal(parmSubTotal){
+    var discountAmt;
+    var vatAmt
+    var totalPrice
+    
+    
+    discountAmt = parmSubTotal * 0.05
+    vatAmt = (parmSubTotal - discountAmt )* 0.1
+    totalPrice = parmSubTotal - discountAmt + vatAmt
+    
+    display(parmSubTotal,discountAmt.vatAmt,totalPrice)
+    
+}
+
 
 
 function display(parm1, parm2, parm3, parm4){
     
-    document.getElementById("subtotal").value = "$" + parm1;
-    document.getElementById("discount").value = parm2 = ( "$" + parm1 * 0.05);
-    document.getElementById("vat").value = parm3 = ( ("$" + parm1 - parm2) * 0.1);
-    document.getElementById("total").value = parm4 = (("$") + parm1-parm2+parm3);
+    document.getElementById("subtotal").value = "$" + parm1
+    document.getElementById("discount").value = "$" + parm2
+    document.getElementById("vat").value = "$" + parm3
+    document.getElementById("total").value = "$" + parm4
     
     enablebtnProceed();
 }
