@@ -12,7 +12,7 @@
      color:white;
  }
  
-    .intro {
+    .text{
     text-align: left;
     color:#212121;
     font-family: Arial, Helvetica, sans-serif;
@@ -111,8 +111,10 @@ nav a:hover {
     font-family: Arial, Helvetica, sans-serif; 
     text-align: center;
 }
+
 /* style for ebus buttons */
-.cart {
+
+.btnCart {
     background-color: white; 
     color: black; 
     border: 2px solid #4CAF50;
@@ -122,12 +124,12 @@ nav a:hover {
     transition-duration: 0.3s;
 }
 
-.cart:hover {
+.btnCart:hover {
     background-color: #4CAF50;
     color: white;
 }
 
-.cost{
+.btnCost{
     display: inline-block;
     background-color: white; 
     color: black; 
@@ -138,12 +140,12 @@ nav a:hover {
     transition-duration: 0.3s;
 }
 
-.cost:hover {
+.btnCost:hover {
     background-color:#FFA000;
     color: white;
 }
 
-.clear{
+.btnClear{
     display: inline-block;
     background-color: white; 
     color: black; 
@@ -152,16 +154,15 @@ nav a:hover {
     padding: 16px 16px;
     font-size: 105%;
     transition-duration: 0.3s;
+    text-decoration: none;
 }
 
-.clear:hover {
+.btnClear:hover {
     background-color:#FF5252;
     color: white;
 }
-/* end of style */
 
-/* style for payment buttons */
-.proceed{
+.btnNext{
     display: inline-block;
     background-color: white; 
     color: black; 
@@ -171,12 +172,17 @@ nav a:hover {
     font-size: 105%;
     transition-duration: 0.3s;
 }
-.proceed:hover {
+.btnNext:hover {
     background-color:#4CAF50;
     color: white;
 }
 
-.val{
+.btnNext:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btnValidate{
     display: inline-block;
     background-color: white; 
     color: black; 
@@ -186,7 +192,25 @@ nav a:hover {
     font-size: 105%;
     transition-duration: 0.3s;
 }
-.val:hover {
+.btnValidate:hover {
     background-color:#1976D2;
     color: white;
 }
+
+.btnEbusHome{
+    display: inline-block;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #1976D2;
+    border-radius: 4px;
+    padding: 50px 50px;
+    font-size: 250%;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+.btnEbusHome:hover {
+    background-color:#1976D2;
+    color: white;
+}
+
+/* end of style */

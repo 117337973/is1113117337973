@@ -53,7 +53,7 @@ session_start();
                     <br/>
                     
                     <label style="float:left" for="user_pin">PIN</label>
-                    <input style="float:right;margin-right:55%" type="password" id="user_pin" placeholder="Card PIN" maxlenght="4">
+                    <input style="float:right;margin-right:55%" type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
                     
                     <br/>
                     <br/>
@@ -64,16 +64,17 @@ session_start();
                     <br/>
                     <br/>
                 
-                    <button class="proceed" type="submit" id="btnPurchase" disabled>Proceed with purchase</button>
+                    <button class="btnNext" type="submit" id="btnPurchase" disabled>Proceed with purchase</button>
                 
                 </form>
                 <br/>
                 <br/>
-                <button class="val" onClick="validateDetails()">Validate</button>
+                <button class="btnValidate" onClick="validateDetails()">Validate</button>
   
         </div>
         
-        <div style="padding-top:325px">
+        <!-- div to contain logos at bottom of page -->
+        <div style="padding-top:325px;">
             
             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Salesforce_logo.svg/1200px-Salesforce_logo.svg.png" style="position:absolute;width:15%;height:15%; left:2%">
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Cloud9IDE.png" style="position:absolute;width:15%;height:15%;left:30%">

@@ -69,24 +69,24 @@ session_start();
                     
                      <?php
                      //echo session variables that were set on previous page
-                      echo "Total Price: $" . $_SESSION["total"];
+                      echo "Total Price: " . $_SESSION["total"];
                      ?>
                 
-                
                     <br/>
                     <br/>
-                
+                 
+                    
+                     
+                    <p style="font-size:250%;position:absolute">Thank you for your purchase!</p>
+                   <a href="Ebus1.php" class="btnEbusHome" style="margin-top:10%;position:absolute;">Back to Shop</a>  
+                    
+                    
         </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
         
-        <div style="padding-top:325px">
+       
+        
+        <!-- container for logos at bottom of page -->
+        <div style="margin-top:500px;">
             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Salesforce_logo.svg/1200px-Salesforce_logo.svg.png" style="position:absolute;width:15%;height:15%; left:2%">
              <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Cloud9IDE.png" style="position:absolute;width:15%;height:15%;left:30%">
              <img src="https://cdn-images-1.medium.com/max/1600/1*AD9ZSLXKAhZ-_WomszsmPg.png" style="position:absolute;width:15%;height:11.25%;right:30%">
@@ -94,7 +94,7 @@ session_start();
              
         </div> 
         
-        <br/>
+        
       
     </body>
     

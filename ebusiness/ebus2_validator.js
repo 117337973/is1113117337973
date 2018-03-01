@@ -2,7 +2,7 @@
 
 function validateDetails() {
     
-    // Declaring our variables for pin and email
+    // Declaring our variables for pin, email and name
     var pin;
     pin = document.getElementById("user_pin").value;
     
@@ -32,22 +32,14 @@ function validateDetails() {
     
     else{
         enablebtnPurchase();
-    }
-    
-    
-    
-    
-   
-    
-    
-    
+    } // end of if
 }
 
-function enablebtnPurchase(){
+function enablebtnPurchase(){ //enable next button
     $('#btnPurchase').prop('disabled', false);
 }
 
-function disabledbtnPurchase() {
+function disabledbtnPurchase() { //disable next button
     $('#btnPurchase').prop('disabled', true);
 }
 

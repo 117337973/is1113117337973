@@ -25,7 +25,7 @@
                         <li><a href="../cv/cv_page1.html">Curriculum Vitae</a></li>
                         <li><a href="../interests/InterestsHomepage.html">Interests</a></li>
                         <li><a href="../CloudServicesVendor.html">Cloud Services</a></li>
-                        <li><a href="ebusiness/Ebus1.php">eBusiness</a></li>
+                        <li><a href="Ebus1.php">eBusiness</a></li>
                         <li><a href="https://github.com/117337973/is1113117337973/graphs/commit-activity">GitHub</a></li>
                         <li><a href="https://is1113117337973.herokuapp.com/">Heroku</a></li>
                     </ul>
@@ -38,6 +38,7 @@
         <br/>
         <br/>
          
+         <!-- company logo -->
          <div class="container">
             
             <img src="http://ivytechgbl.com/wp-content/uploads/2015/09/cloud_logo_blue_2000.png" style="width:100%;" >
@@ -51,6 +52,7 @@
         <br/>
         <br/>
         
+        <!-- company introduction -->
         <div class="Info">
             <p>
                 <strong class="SubHeading">Company F - A Short Welcome...</strong>
@@ -69,6 +71,7 @@
         <br/>
         <br/>
         
+        <!-- company shop -->
         <div class="shop ">
              <strong class="SubHeading">Select a Product</strong>
              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Salesforce_logo.svg/1200px-Salesforce_logo.svg.png" style="position:absolute;left:1%;width:30%;height:30%;">
@@ -90,7 +93,7 @@
                 <br/>
                 
                 <label style="float:left;padding-left:25%" for="cloud9">
-                    <input type="radio" id="cloud9" name="product" checked onClick="disabledbtnProceed()"/>
+                    <input type="radio" id="cloud9" name="product" onClick="disabledbtnProceed()"/>
                     Cloud9 @ $200
                 </label>
             
@@ -145,7 +148,7 @@
                 
                 <br/>
                 <br/>
-                <button style="float:left;margin-left:25%" class="cart" type="submit" id="btnProceed" disabled>Add to shopping cart</button> 
+                <button style="float:left;margin-left:25%" class="btnNext" type="submit" id="btnProceed" disabled>Add to shopping cart</button> 
                 
                 <br/>
                 <br/>
@@ -157,8 +160,8 @@
             
             <div style="margin-right:7.5%">
                 
-                <button class="cost" onClick="calcSub()">Calculate Cost</button>
-                <a style="padding-left:2%" class="clear" role="button" href="Ebus1.php">Clear Choice</a>  
+                <button class="btnCost" onClick="calcSub()">Calculate Cost</button>
+                <a style="padding-left:2%" class="btnClear" role="button" href="Ebus1.php">Clear Choice</a>  
                 
             </div>
                 
