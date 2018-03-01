@@ -78,7 +78,7 @@ session_start();
                     
                      
                     <p style="font-size:250%;position:absolute">Thank you for your purchase!</p>
-                   <a href="Ebus1.php" class="btnEbusHome" style="margin-top:12.5%;position:absolute;">Back to Shop</a>  
+                   <a href="Ebus1.php" class="btnEbusHome" style="margin-top:12%;position:absolute;">Back to Shop</a>  
                     
                     
         </div>
