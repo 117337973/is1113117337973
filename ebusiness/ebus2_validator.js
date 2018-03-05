@@ -2,7 +2,7 @@
 
 function validateDetails() {
     
-    // Declaring our variables for pin, email and name
+    // Declaring variables for pin, email and name
     var pin;
     pin = document.getElementById("user_pin").value;
     
@@ -12,7 +12,13 @@ function validateDetails() {
     var name;
     name=document.getElementsByName("name").value;
     
-    
+    //if statement to validate empty fields 
+    if(pin == "" || email == "" || name == ""){
+       disabledbtnPurchase()
+        alert("Please ensure all details are filled out");
+  }    // end of if  
+
+
     // if statement to validate details
     if (pin == "" ){
         alert("Please ensure PIN is filled out correctly.");
@@ -20,7 +26,7 @@ function validateDetails() {
     else if (String(pin).length < 4){
         alert("Please ensure your PIN is 4 digits long.");
     }
-     else if (email == ""){
+    else if (email == ""){
         alert("Please ensure you have entered your E-mail.");
     }
     else if (name == ""){
@@ -32,6 +38,7 @@ function validateDetails() {
     } // end of if
 }
 
+
 function enablebtnPurchase(){ //enable next button
     $('#btnPurchase').prop('disabled', false);
 }
@@ -41,4 +48,5 @@ function disabledbtnPurchase() { //disable next button
 }
 
 
-
+   
+    
