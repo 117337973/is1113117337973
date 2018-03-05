@@ -1,41 +1,53 @@
 /* global $ */
 
+
+
+// Declaring variables for pin, email and name
+  var pin = document.getElementById("user_pin").value;
+  
+  var  email = document.forms["details"]["email"].value;
+  
+  var  name = document.forms["details"]["name"].value;
+
+
+
+
+ if(pin == "" || email == "" || name == ""){
+        disabledbtnPurchase();
+        alert("Please ensure all details are filled out");
+ }
+ else{
+        enablebtnPurchase();
+    }  // end of if
+  
+
 function validateDetails() {
     
-    // Declaring variables for pin, email and name
-    var pin;
-    pin = document.getElementById("user_pin").value;
-    
-    var email;
-    email= document.getElementsByName("email").value;
-    
-    var name;
-    name=document.getElementsByName("name").value;
-    
-    //if statement to validate empty fields 
-    if(pin == "" || email == "" || name == ""){
-       disabledbtnPurchase()
-        alert("Please ensure all details are filled out");
-  }    // end of if  
-
-
     // if statement to validate details
-    if (pin == "" ){
-        alert("Please ensure PIN is filled out correctly.");
+      if(pin == ""){
+        disabledbtnPurchase();
+        alert("Please enter your PIN");
     }
     else if (String(pin).length < 4){
-        alert("Please ensure your PIN is 4 digits long.");
+        disabledbtnPurchase();
+        alert("Please make sure your PIN is accurate");
+        
     }
-    else if (email == ""){
-        alert("Please ensure you have entered your E-mail.");
+    
+    else if(name == ""){
+        alert("Please enter your name");
+        return false;
     }
-    else if (name == ""){
-        alert("Please ensure you have entered your name");
+    
+    else if(email == ""){
+        alert("Please enter your email");
+        return false;
     }
     
     else{
         enablebtnPurchase();
     } // end of if
+    
 }
 
 
