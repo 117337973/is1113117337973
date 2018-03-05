@@ -5,9 +5,9 @@
 // Declaring variables for pin, email and name
   var pin = document.getElementById("user_pin").value;
   
-  var  email = document.forms["details"]["email"].value;
+  var  email = document.forms["customerdetails"]["email"].value;
   
-  var  name = document.forms["details"]["name"].value;
+  var  name = document.forms["customerdetails"]["name"].value;
 
 
 
