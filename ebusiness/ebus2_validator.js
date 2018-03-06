@@ -36,12 +36,12 @@ function validateDetails() {
     
     else if(name == ""){
         alert("Please enter your name");
-        return false;
+        
     }
     
     else if(email == ""){
         alert("Please enter your email");
-        return false;
+       
     }
     
     else{
