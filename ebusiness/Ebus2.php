@@ -44,7 +44,7 @@ session_start();
             <strong class="SubHeading">Please enter your payment details</strong>
             <br/>
             <br/>
-                <form name="customerdetails" action="Ebus3.php" method="POST">
+                <form name="details" action="Ebus3.php" method="POST">
 
                     <label style="float:left" for="name">Name</label>
                     <input style="float:right;margin-right:55%" type="name" id="name" name="name" placeholder="Enter Your Full Name Here">

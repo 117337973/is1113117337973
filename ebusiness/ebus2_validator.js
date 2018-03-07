@@ -1,64 +1,64 @@
 /* global $ */
 
+// declaring and assigning values to variables 
+var pin = document.getElementById("user_pin").value;
+var name = document.forms["details"]["email"].value;
+var email = document.forms["details"]["name"].value;
 
-
-// Declaring variables for pin, email and name
-  var pin = document.getElementById("user_pin").value;
-  
-  var  email = document.forms["customerdetails"]["email"].value;
-  
-  var  name = document.forms["customerdetails"]["name"].value;
-
-
-
-
- if(pin == "" || email == "" || name == ""){
-        disabledbtnPurchase();
-        alert("Please ensure all details are filled out");
- }
- else{
-        enablebtnPurchase();
-    }  // end of if
-  
-
-function validateDetails() {
+// function to ensure no blanks are allowed on form 
+function noBlanks(){
     
-    // if statement to validate details
-      if(pin == ""){
-        disabledbtnPurchase();
+    
+ if(pin == "" || email == "" || name == ""){
+        disablebtnPurchase();
+        alert("Please ensure no details are left blank");
+  }   // end of if    
+  
+}  //end of function
+
+
+
+//Function to validate details
+function validateDetails(){
+    
+    //If statement to validate details
+    if(pin == ""){
+        disablebtnPurchase();
         alert("Please enter your PIN");
     }
     else if (String(pin).length < 4){
-        disabledbtnPurchase();
-        alert("Please make sure your PIN is accurate");
+        disablebtnPurchase();
+        alert("Please ensure your PIN is 4 digits long");
         
     }
     
     else if(name == ""){
         alert("Please enter your name");
-        
+        return false;
     }
     
     else if(email == ""){
         alert("Please enter your email");
-       
+        return false;
     }
     
     else{
         enablebtnPurchase();
-    } // end of if
+    }  // end of if 
     
-}
+} //end of function
+  
 
-
-function enablebtnPurchase(){ //enable next button
+// function to enable next button
+function enablebtnPurchase (){
+    
     $('#btnPurchase').prop('disabled', false);
-}
-
-function disabledbtnPurchase() { //disable next button
-    $('#btnPurchase').prop('disabled', true);
-}
-
-
-   
     
+}    //end of function
+
+// fucntion to disable next button 
+function disablebtnPurchase() {
+    
+    $('#btnPurchase').prop('disabled', true);
+    
+}    //end of function
