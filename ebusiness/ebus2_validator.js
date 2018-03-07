@@ -7,8 +7,8 @@ function noBlanks(){
     
     // declaring and assigning values to variables 
     var pin = document.getElementById("user_pin").value;
-    var name = document.forms["details"]["email"].value;
-    var email = document.forms["details"]["name"].value;
+    var name = document.forms["details"]["name"].value;
+    var email = document.forms["details"]["email"].value;
     
  if(pin == "" || email == "" || name == ""){
         disablebtnPurchase();
@@ -24,8 +24,8 @@ function validateDetails(){
     
     // declaring and assigning values to variables 
     var pin = document.getElementById("user_pin").value;
-    var name = document.forms["details"]["email"].value;
-    var email = document.forms["details"]["name"].value;
+    var name = document.forms["details"]["name"].value;
+    var email = document.forms["details"]["email"].value;
     
     //If statement to validate details
     if(pin == ""){
