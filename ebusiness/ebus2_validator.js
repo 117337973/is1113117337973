@@ -1,24 +1,5 @@
 /* global $ */
 
-
-
-// function to ensure no blanks are allowed on form 
-function noBlanks(){
-    
-    // declaring and assigning values to variables 
-    var pin = document.getElementById("user_pin").value;
-    var name = document.forms["details"]["name"].value;
-    var email = document.forms["details"]["email"].value;
-    
- if(pin == "" || email == "" || name == ""){
-        disablebtnPurchase();
-        alert("Please ensure no details are left blank");
-  }   // end of if    
-  
-}  //end of function
-
-
-
 //Function to validate details
 function validateDetails(){
     
