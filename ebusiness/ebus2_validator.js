@@ -1,13 +1,14 @@
 /* global $ */
 
-// declaring and assigning values to variables 
-var pin = document.getElementById("user_pin").value;
-var name = document.forms["details"]["email"].value;
-var email = document.forms["details"]["name"].value;
+
 
 // function to ensure no blanks are allowed on form 
 function noBlanks(){
     
+    // declaring and assigning values to variables 
+    var pin = document.getElementById("user_pin").value;
+    var name = document.forms["details"]["email"].value;
+    var email = document.forms["details"]["name"].value;
     
  if(pin == "" || email == "" || name == ""){
         disablebtnPurchase();
@@ -20,6 +21,11 @@ function noBlanks(){
 
 //Function to validate details
 function validateDetails(){
+    
+    // declaring and assigning values to variables 
+    var pin = document.getElementById("user_pin").value;
+    var name = document.forms["details"]["email"].value;
+    var email = document.forms["details"]["name"].value;
     
     //If statement to validate details
     if(pin == ""){
