@@ -5,6 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8"/>
         <title>Enter Details</title>
         <link rel="stylesheet" href="../mystyle.css" type="text/css" />
         <!-- jQuery-->
@@ -17,7 +18,7 @@ session_start();
             
             <div>
                
-               <img src="https://www.ucc.ie/en/media/2017siteassets/images/ucc_logo.svg" style="width:130px;height:50px;" class="logo">
+               <img src="https://www.ucc.ie/en/media/2017siteassets/images/ucc_logo.svg" alt="logo" style="width:130px;height:50px;" class="logo">
                 
                 <nav>
                     <ul>
@@ -38,7 +39,7 @@ session_start();
         <br/>
         <br/>
         
-         <img src="http://ivytechgbl.com/wp-content/uploads/2015/09/cloud_logo_blue_2000.png" style="width:50%;position:absolute;right:0" >
+         <img src="http://ivytechgbl.com/wp-content/uploads/2015/09/cloud_logo_blue_2000.png" alt="ebuslogo" style="width:50%;position:absolute;right:0" >
         
         <div class="Info">
             <strong class="SubHeading">Please enter your payment details</strong>
@@ -76,10 +77,10 @@ session_start();
         <!-- div to contain logos at bottom of page -->
         <div style="padding-top:325px;">
             
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Salesforce_logo.svg/1200px-Salesforce_logo.svg.png" style="position:absolute;width:15%;height:15%; left:2%">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Cloud9IDE.png" style="position:absolute;width:15%;height:15%;left:30%">
-            <img src="https://cdn-images-1.medium.com/max/1600/1*AD9ZSLXKAhZ-_WomszsmPg.png" style="position:absolute;width:15%;height:11.25%;right:30%">
-            <img src="http://b-i.forbesimg.com/jeffbercovici/files/2013/07/gmail.png" style="position:absolute;width:15%;height:12.5%;right:2%"> 
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Salesforce_logo.svg/1200px-Salesforce_logo.svg.png" alt="salesforce" style="position:absolute;width:15%;height:15%; left:2%">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Cloud9IDE.png" alt="c9" style="position:absolute;width:15%;height:15%;left:30%">
+            <img src="https://cdn-images-1.medium.com/max/1600/1*AD9ZSLXKAhZ-_WomszsmPg.png" alt="aws" style="position:absolute;width:15%;height:11.25%;right:30%">
+            <img src="http://b-i.forbesimg.com/jeffbercovici/files/2013/07/gmail.png" alt="gmail" style="position:absolute;width:15%;height:12.5%;right:2%"> 
             
         </div>
             

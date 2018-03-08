@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8"/>
         <title>Select Product</title>
         <link rel="stylesheet" href="../mystyle.css" type="text/css" />
         <!--jQuery-->
@@ -17,7 +18,7 @@
             
             <div>
                
-               <img src="https://www.ucc.ie/en/media/2017siteassets/images/ucc_logo.svg" style="width:130px;height:50px;" class="logo">
+               <img src="https://www.ucc.ie/en/media/2017siteassets/images/ucc_logo.svg" alt="logo" style="width:130px;height:50px;" class="logo">
                 
                 <nav>
                     <ul>
@@ -41,7 +42,7 @@
          <!-- company logo -->
          <div class="container">
             
-            <img src="http://ivytechgbl.com/wp-content/uploads/2015/09/cloud_logo_blue_2000.png" style="width:100%;" >
+            <img src="http://ivytechgbl.com/wp-content/uploads/2015/09/cloud_logo_blue_2000.png" alt="ebuslogo" style="width:100%;" >
             
         </div>
         
@@ -74,10 +75,10 @@
         <!-- company shop -->
         <div class="shop ">
              <strong class="SubHeading">Select a Product</strong>
-             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Salesforce_logo.svg/1200px-Salesforce_logo.svg.png" style="position:absolute;left:1%;width:30%;height:30%;">
-             <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Cloud9IDE.png" style="position:absolute;right:1%;width:30%;height:30%;">
-             <img src="https://cdn-images-1.medium.com/max/1600/1*AD9ZSLXKAhZ-_WomszsmPg.png" style="position:absolute;left:1%;width:30%;height:22.5%;padding-top:400px">
-             <img src="http://b-i.forbesimg.com/jeffbercovici/files/2013/07/gmail.png" style="position:absolute;right:1%;width:30%;height:25%;padding-top:400px">
+             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Salesforce_logo.svg/1200px-Salesforce_logo.svg.png" alt="salesforce" style="position:absolute;left:1%;width:30%;height:30%;">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Cloud9IDE.png" alt="c9" style="position:absolute;right:1%;width:30%;height:30%;">
+             <img src="https://cdn-images-1.medium.com/max/1600/1*AD9ZSLXKAhZ-_WomszsmPg.png" alt="aws" style="position:absolute;left:1%;width:30%;height:22.5%;padding-top:400px">
+             <img src="http://b-i.forbesimg.com/jeffbercovici/files/2013/07/gmail.png" alt="gmail" style="position:absolute;right:1%;width:30%;height:25%;padding-top:400px">
             <br/>
             <br/>
             <br/>
